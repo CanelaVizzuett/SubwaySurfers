@@ -101,7 +101,7 @@ public class Character : MonoBehaviour
     {
         if (isActive && collision.gameObject.CompareTag("Ground"))
         {
-            if (!isRolling)
+            if (!isRolling && !isGrounded)
             {
                 characterAnimator.Play(characterData.runAnimationName, 0, 0f);
             }
