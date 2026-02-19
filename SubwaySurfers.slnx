@@ -2,7 +2,6 @@
   <Project Path="CFXRRuntime.csproj" />
   <Project Path="CFXRDemo.csproj" />
   <Project Path="CFXREditor.csproj" />
-  <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
   <Project Path="KinoBloom.Runtime.csproj" />
