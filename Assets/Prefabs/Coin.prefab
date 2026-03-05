@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7540473293299161816}
   - component: {fileID: 7426602259693222407}
+  - component: {fileID: -8257399606461835080}
   m_Layer: 0
   m_Name: Coin
   m_TagString: Coin
@@ -54,6 +55,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.3994166, y: 0.3920263, z: 0.19868277}
   m_Center: {x: 0.00081653893, y: 0.7955918, z: -0.009173743}
+--- !u!114 &-8257399606461835080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 15305006763196194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfb5fed9e6499e42be29a58001c9710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinFollow
+  followSpeed: 5
+  minimumDistance: 0.1
 --- !u!1001 &1990462831124079232
 PrefabInstance:
   m_ObjectHideFlags: 0
