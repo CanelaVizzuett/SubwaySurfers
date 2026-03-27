@@ -13,7 +13,7 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private float verticalThreshold = 2f;
     [SerializeField]
-    private float verticalSmoothSpeed;
+    private float verticalSmoothSpeed = 5f;
     private Vector3 offset;
     private float currentY;
     private void Awake()
