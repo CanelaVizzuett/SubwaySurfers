@@ -38,7 +38,7 @@ public class PointsManager : MonoBehaviour
     }
     public void CalculateHighScore()
     {
-        int highScore = PlayerPrefs.GetInt("HighScore, 0");
+        int highScore = PlayerPrefs.GetInt("HighScore", 0);
         if (points > highScore)
         {
             PlayerPrefs.SetInt("HighScore", points);
